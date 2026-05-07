@@ -76,13 +76,13 @@ cd dss_budget_student
 Sau đó chạy ứng dụng:
 
 ```bash
-streamlit run app.py
+python app.py
 ```
 
 Sau khi chạy thành công, trình duyệt sẽ mở tại địa chỉ:
 
 ```text
-http://localhost:8501
+http://127.0.0.1:5000
 ```
 
 Nếu trình duyệt không tự mở, hãy copy đường dẫn trên và dán vào trình duyệt.
@@ -358,7 +358,7 @@ python -m pip install streamlit
 Sau đó chạy lại:
 
 ```bash
-streamlit run app.py
+python app.py
 ```
 
 ---
@@ -384,13 +384,13 @@ Nếu thiếu driver SQL Server, cần cài **ODBC Driver for SQL Server**.
 ```bash
 cd dss_budget_student
 pip install -r requirements.txt
-streamlit run app.py
+python app.py
 ```
 
 Mở trình duyệt tại:
 
 ```text
-http://localhost:8501
+http://127.0.0.1:5000
 ```
 
 ---
@@ -406,5 +406,5 @@ Ctrl + C
 Sau đó chạy lại:
 
 ```bash
-streamlit run app.py
+python app.py
 ```
